@@ -37,7 +37,7 @@
       </div>
       <div class="clear"></div>
 <?php
-	include($_SERVER['DOCUMENT_ROOT']. '/mysite/dzine/'.$view.'.php'"); 
+	include($_SERVER['DOCUMENT_ROOT']. '/mysite/dzine/indexmain.php'); 
 ?>
 <div class="clear"></div>
 <div class="footer">

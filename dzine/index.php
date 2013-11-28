@@ -1,5 +1,8 @@
 ﻿<?php
 
+// подключение db_functions
+include('db_functions.php');
+
 $view = empty ($_GET['view']) ? 'index' : $_GET['view'];
 /* если элемент массива $_GET пустой, то передаем в переменную $view значение переменной index; если - НЕ пустой - то мы присваиваем переменной $view это значение */
 
